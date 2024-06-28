@@ -7,6 +7,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ListingVmComponent } from './pages/listing-vm/listing-vm.component';
 import { RegisterVmComponent } from './pages/register-vm/register-vm.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RegisterVmComponent } from './pages/register-vm/register-vm.component';
     LoginComponent,
     DashboardComponent,
     ListingVmComponent,
-    RegisterVmComponent
+    RegisterVmComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

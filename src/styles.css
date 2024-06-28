@@ -6,6 +6,6 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, p, button, table{
+h1, h2, h3, h4, h5, p, button, table, a{
     font-family: "Montserrat", sans-serif;
 }
