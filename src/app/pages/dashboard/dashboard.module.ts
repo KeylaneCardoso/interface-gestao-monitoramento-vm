@@ -5,15 +5,15 @@ import { DashboardRoutingModule } from './dashboard-routing';
 
 @NgModule({
   declarations: [
-    DashboardComponent
+    // DashboardComponent
   ],
   imports: [
     BrowserModule,
-    DashboardRoutingModule
+    // DashboardRoutingModule
   ],
   providers: [],
   exports: [
-    DashboardComponent
+    // DashboardComponent
   ]
 
 })
