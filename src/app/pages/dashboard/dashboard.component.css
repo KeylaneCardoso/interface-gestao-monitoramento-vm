@@ -1,0 +1,111 @@
+body{
+    background-color: #FFFAEE;
+    width: 100%;
+    height: 100vh;
+}
+
+#vm-key-info{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+    /* colocar os margins */
+
+    p{
+        color: #5E5E5E;
+    }
+
+    #welcome{
+
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h1{
+            color: #FF8A08;
+            font-style: italic;
+            font-weight: 600;
+        }
+        
+        #num-vm{
+            font-style: unset;
+            font-weight: 700;
+            padding: 0.75rem;
+            color: #FFFFFF;
+            background-color: #FF8A08;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+    }
+
+    #pie-chart{
+        display: flex;
+        flex-direction: row;
+
+        div{
+            width: 10rem;
+
+            h1{
+                color: #00BBFF;
+                font-size: 28px;
+            }
+        }
+    }
+
+    #bar-chart{
+        h2{
+            font-size: 18px;
+            padding: 0.5rem;
+            background-color: #00BBFF;
+            border-radius: 30px;
+            color: #FFFFFF;
+        }
+    }
+
+
+}
+
+#platform-info{
+    margin-top: 2rem;
+    background: linear-gradient(to right, #0E46C9, #072263);
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #ffffff;
+    height: 50vh;
+
+    h2{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+}
+
+/* <main>
+    <body>
+        <section id="platform-info">
+            <div>
+                <img>
+                <div>
+                    <h2>Bem-vindo de volta a ...</h2>
+                    <h4>Sua plataforma de  gestão e monitoramento de Maquinas Virtuais.</h4>
+                </div>
+            </div>
+            <p>
+                Aqui você pode acompanhar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper sapien at arcu aliquet, eu volutpat mauris gravida. Duis vulputate sem risus, eu dictum erat ultrices sed. Sed luctus accumsan suscipit. Nam suscipit nec enim eu suscipit. 
+            </p>
+        </section>
+    </body>
+</main> */
