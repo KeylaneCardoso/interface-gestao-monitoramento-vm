@@ -1,0 +1,83 @@
+body{
+    background-color: #FFFAEE;
+
+    button{
+        padding: 0.75rem 2rem;
+        border-radius: 30px;
+        border: none;
+        font-size: 16px;
+        color: #FFFFFF;
+        background-color: #00BBFF;
+    }
+
+    section{
+        margin: 1rem;
+
+
+        #listing-vm{
+            /* background-color: #FFFFFF; */
+            background-color: red;
+            /* padding: 1rem; */
+            width: 100%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            border: 2rem;
+
+            tr{
+                width: 100%;
+                background-color: #00BBFF;
+                padding: 1rem;
+
+                .title-table{
+                    font-weight: 700;
+                    font-size: 13px;
+                    margin-bottom: 100px;
+                }
+
+                td{
+                    button{
+                        padding: 0.25rem 0.5rem;
+                        border-radius: 10px;
+                        border: none;
+                        font-size: 13px;
+                        color: #000000;
+                        background-color: #c7c7c7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* <main>
+    <body>
+        <h1>Minhas VM's</h1>
+        <button>Criar Nova VM</button>
+        <section>
+            <table id="listing-vm">
+                <tr>
+                    <td class="title-table">NOME</td>
+                    <td class="title-table">CPU</td>
+                    <td class="title-table">MENÓRIA (RAM)</td>
+                    <td class="title-table">STATUS</td>
+                    <td class="title-table">ACÕES</td>
+                </tr>
+                <tr>
+                    <td>vm1</td>
+                    <td>2</td>
+                    <td>1024</td>
+                    <td>RUNNIG</td>
+                    <td>
+                        <button>Iniciar</button>
+                        <button>Pausar</button>
+                        <button>Parar</button>
+                        <button>Excluir</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</main> */
