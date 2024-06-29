@@ -9,7 +9,9 @@ body{
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3rem;
+    margin: 2rem 10rem;
+    align-items: center;
     /* colocar os margins */
 
     p{
@@ -41,9 +43,11 @@ body{
 
     }
 
-    #pie-chart{
+    #field-pie-chart{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        width: 16rem;
 
         div{
             width: 10rem;
@@ -53,15 +57,20 @@ body{
                 font-size: 28px;
             }
         }
+
+        #piechart{
+            width: 0.01rem;
+        }
     }
 
-    #bar-chart{
+    #field-bar-chart{
         h2{
             font-size: 18px;
             padding: 0.5rem;
             background-color: #00BBFF;
             border-radius: 30px;
             color: #FFFFFF;
+            text-align: center;
         }
     }
 
@@ -71,7 +80,7 @@ body{
 #platform-info{
     margin-top: 2rem;
     background: linear-gradient(to right, #0E46C9, #072263);
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 10rem 2rem 10rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
