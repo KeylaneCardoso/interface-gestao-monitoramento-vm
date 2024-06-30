@@ -16,7 +16,7 @@ const routes: Routes = [
     component: DashboardComponent
   },
   {
-    path: "visualizarVM's",
+    path: "visualizarVM",
     component: ListingVmComponent
   },
   {

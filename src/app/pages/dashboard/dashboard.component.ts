@@ -1,13 +1,17 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Chart, registerables } from 'chart.js';
+import { HeaderComponent } from '../../components/header/header.component';
 // import {Chart} from 'node_modules/chart.js'
 
 Chart.register(...registerables);
 
 @Component({
+  // standalone: true,
   selector: 'app-dashboard',
+  imports: [ HeaderComponent ],
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css'
+  styleUrl: './dashboard.component.css',
+  
 })
 export class DashboardComponent implements OnInit {
 
